@@ -1,7 +1,8 @@
 import { useState } from 'react'
 
-const Contact = () => {
+import React from 'react'
 
+const Contact = () => {
     const [inputs, setInputs] = useState({
 		name: '',
 		email: '',
@@ -15,49 +16,49 @@ const Contact = () => {
 			...prev,
 			[e.target.id]: e.target.value,
 		}))
-    }
+	}
 
-    const onSubmitForm = async (e) => {
-        e.preventDefault()
-    
-        if (inputs.name && inputs.email && inputs.message) {
-            setForm({ state: 'loading' })
-            try {
-                const res = await fetch(`api/contact`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(inputs),
-                })
-    
-                const { error } = await res.json()
-    
-                if (error) {
-                    setForm({
-                        state: 'error',
-                        message: error,
-                    })
-                    return
-                }
-    
-                setForm({
-                    state: 'success',
-                    message: 'Your message was sent successfully.',
-                })
-                setInputs({
-                    name: '',
-                    email: '',
-                    message: '',
-                })
-            } catch (error) {
-                setForm({
-                    state: 'error',
-                    message: 'Something went wrong',
-                })
-            }
-        }
-    }
+	const onSubmitForm = async (e) => {
+		e.preventDefault()
+
+		if (inputs.name && inputs.email && inputs.message) {
+			setForm({ state: 'loading' })
+			try {
+				const res = await fetch(`api/contact`, {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify(inputs),
+				})
+
+				const { error } = await res.json()
+
+				if (error) {
+					setForm({
+						state: 'error',
+						message: error,
+					})
+					return
+				}
+
+				setForm({
+					state: 'success',
+					message: 'Your message was sent successfully.',
+				})
+				setInputs({
+					name: '',
+					email: '',
+					message: '',
+				})
+			} catch (error) {
+				setForm({
+					state: 'error',
+					message: 'Something went wrong',
+				})
+			}
+		}
+	}
     return (
         
     <section id="contact">
@@ -138,9 +139,6 @@ const Contact = () => {
         </div>
 
     </section>
-
-
-
     )
 }
 
