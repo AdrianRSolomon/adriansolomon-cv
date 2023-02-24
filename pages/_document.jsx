@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-
+import {Navbar, Footer} from "../components";
 export default function Document() {
   return (
     <Html>
@@ -9,10 +9,12 @@ export default function Document() {
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
         <meta name="theme-color"  />
       </Head>
+      <Navbar/>
       <body>
         <Main />
         <NextScript />
       </body>
+      <Footer/>
     </Html>
   )
 }

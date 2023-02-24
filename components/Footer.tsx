@@ -12,7 +12,7 @@ const Footer = () => {
             </p>
             <div className="flex">
             <a
-                href="#"
+                href="https://www.behance.net/adriansolomon1"
                 className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                 aria-label="Reddit"
             >
@@ -21,7 +21,7 @@ const Footer = () => {
             alt=""/>
             </a>
             <a
-                href="#"
+                href="https://github.com/AdrianRSolomon"
                 className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                 aria-label="Reddit"
             >
@@ -30,7 +30,7 @@ const Footer = () => {
             alt=""/>
             </a>
             <a
-                href="#"
+                href="https://www.facebook.com/adrianrandysolomon/"
                 className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                 aria-label="Reddit"
             >
@@ -39,7 +39,7 @@ const Footer = () => {
             alt=""/>
             </a>
             <a
-                href="#"
+                href="https://www.instagram.com/adrianrsolomon/"
                 className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                 aria-label="Reddit"
             >
