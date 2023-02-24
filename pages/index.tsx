@@ -1,19 +1,18 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import {Hero, About, Projects, Skills, Experience, Contact,} from "../components";
+import dynamic from 'next/dynamic'
+
+const Hero = dynamic(() => import('../components/Hero'))
+const About = dynamic(() => import('../components/About'))
+const Projects = dynamic(() => import('../components/Projects'))
+const Skills = dynamic(() => import('../components/Skills'))
+const Experience = dynamic(() => import('../components/Experience'))
+const Contact = dynamic(() => import('../components/Contact'))
+
 const Home: NextPage = () => {
   return (
     <>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
-        <meta name="theme-color"  />
-      </Head>
-
-
       <main className="flex w-full flex-1 flex-col items-center justify-center px-2 text-center">
-      <Hero />
+      <Hero/>
       <About/>
       <Projects/>
       <Skills/>
