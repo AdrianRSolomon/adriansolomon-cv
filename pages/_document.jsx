@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 import {Navbar, Footer} from "../components";
 export default function Document() {
   return (
-    <Html>
+    <Html className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="title" content="Adrian Solomon CV"/>
