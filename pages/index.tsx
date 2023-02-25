@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         </title>
         <meta
           name="description"
-          content="CI am dedicated to crafting intuitive and seamless user experiences for websites and applications."
+          content="I am dedicated to crafting intuitive and seamless user experiences for websites and applications."
           key="desc"
         />
           <meta
