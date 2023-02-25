@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.11",
@@ -19,6 +20,7 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.12",
+    "next-sitemap": "^3.1.52",
     "postcss": "^8.4.18",
     "tailwind-scrollbar": "^2.1.0",
     "tailwindcss": "^3.2.4",

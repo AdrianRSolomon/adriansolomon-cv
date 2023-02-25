@@ -143,7 +143,7 @@ const Projects = () => {
                   >
                     <img className="object-cover w-full rounded-lg h-96 "
                     src={post.img}
-                    alt=""/>
+                    alt="projets"/>
                     <h2 className="mt-4 text-xl font-semibold text-gray-100 capitalize ">
                     {post.title}</h2>
                     <a className="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">

@@ -52,22 +52,22 @@ const Hero = () => {
       <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500">
       <img className="object-cover w-24 rounded-lg "
         src='/js.png'
-        alt=""/>
+        alt="javascript"/>
          <img className="object-cover w-24 rounded-lg m-3"
         src='/typescript.png'
-        alt=""/>
+        alt="typescript"/>
         <img className="object-cover w-24 rounded-lg m-3"
         src='/photoshop.png'
-        alt=""/>
+        alt="photoshop"/>
         <img className="object-cover w-24 rounded-lg m-3"
         src='/illustrator.png'
-        alt=""/>
+        alt="illustrator"/>
         <img className="object-cover w-24 rounded-lg m-3"
         src='/node-js.png'
-        alt=""/>
+        alt="nodejs"/>
         <img className="object-cover w-24 rounded-lg m-3"
         src='/stripe.png'
-        alt=""/>
+        alt="stripe"/>
       </div>
     </div>
   </div>

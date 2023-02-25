@@ -18,7 +18,7 @@ const Footer = () => {
             >
            <img className="object-cover w-6 rounded-lg "
             src='/behance (1).png'
-            alt=""/>
+            alt="behance"/>
             </a>
             <a
                 href="https://github.com/AdrianRSolomon"
@@ -27,7 +27,7 @@ const Footer = () => {
             >
            <img className="object-cover w-6 rounded-lg "
             src='/github.png'
-            alt=""/>
+            alt="github"/>
             </a>
             <a
                 href="https://www.facebook.com/adrianrandysolomon/"
@@ -36,7 +36,7 @@ const Footer = () => {
             >
            <img className="object-cover w-6 rounded-lg "
             src='/facebook (1).png'
-            alt=""/>
+            alt="facebook"/>
             </a>
             <a
                 href="https://www.instagram.com/adrianrsolomon/"
@@ -45,7 +45,7 @@ const Footer = () => {
             >
            <img className="object-cover w-6 rounded-lg "
             src='/instagram (1).png'
-            alt=""/>
+            alt="instagram"/>
             </a>
             </div>
         </div>

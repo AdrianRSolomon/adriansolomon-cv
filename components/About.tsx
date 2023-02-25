@@ -7,9 +7,9 @@ const About = () => {
     <div className="container flex flex-col items-center px-4 py-12 mx-auto xl:flex-row">
       <div className="flex justify-center xl:w-1/2">
         <img
-          className="h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-full border-8 border-[#38BDF8] shadow-lg shadow-slate-200"
+          className="h-80 w-80 sm:w-[28rem] sm:h-[28rem] bg-gray-900 flex-shrink-0 object-cover rounded-full border-8 border-[#38BDF8] shadow-lg shadow-slate-200"
           src="/propic.png"
-          alt=""
+          alt="about me"
         />
       </div>
       <div className="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
