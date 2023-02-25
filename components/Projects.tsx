@@ -65,15 +65,13 @@ const Projects = () => {
       {
         id: 1,
         img: '/project-2.jpg',
-        title: 'Modern UI/UX website using React.js & Tailwind CSS',
-        date: 'concept',
+        title: 'Modern React.js & Tailwind CSS',
         link: 'https://bankproject-sigma.vercel.app/',
       },
       {
         id: 2,
         img: '/project-1.jpg',
         title: "Modern website using React.js, APIs ",
-        date: 'concept',
         link: 'https://match-realtor.vercel.app/',
       },
     ],
@@ -162,9 +160,6 @@ const Projects = () => {
                     alt="projets"/>
                     <h2 className="mt-4 text-xl font-semibold text-gray-100 capitalize ">
                     {post.title}</h2>
-                    <a className="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">
-                    {post.date}
-                    </a>
                     <a
                       href={post.link} 
                       className={classNames(
