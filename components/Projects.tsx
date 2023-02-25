@@ -155,7 +155,7 @@ const Projects = () => {
                     key={post.id}
                     className="relative rounded-md p-3 "
                   >
-                    <img className="object-cover w-full rounded-lg h-full"
+                    <img className="object-cover w-full rounded-lg h-96"
                     src={post.img}
                     alt="projets"/>
                     <h2 className="mt-4 text-xl font-semibold text-gray-100 capitalize ">
