@@ -5,7 +5,6 @@ export default function Document() {
     <Html>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <title>I'm Adrian Solomon</title>
         <meta name="title" content="Adrian Solomon CV"/>
         <meta name="description" content="I am dedicated to crafting intuitive and seamless user experiences for websites and applications."/>
         <meta name="keywords" content="website design trinidad, graphic designers trinidad, website developers trinidad,"/>
