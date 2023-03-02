@@ -4,6 +4,21 @@ export default function Document() {
   return (
     <Html className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
       <Head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-ZZ2DDDLC5X"
+      />
+
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-ZZ2DDDLC5X');
+            `,
+        }}
+      />
         <link rel="icon" href="/favicon.ico" />
         <meta name="title" content="Adrian Solomon CV"/>
         <meta name="description" content="I am dedicated to crafting intuitive and seamless user experiences for websites and applications."/>
