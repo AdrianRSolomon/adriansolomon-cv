@@ -88,6 +88,20 @@ const Projects = () => {
         title: "Modern website using React.js, APIs ",
         link: 'https://match-realtor.vercel.app/',
       },
+      {
+        id: 3,
+        img: '/project-3.jpg',
+        title: "Next JS Sanity Ecommerce ",
+        date: 'concept',
+        link: 'https://sanity-stripev1.vercel.app/',
+      },
+      {
+        id: 4,
+        img: '/project-4.jpg',
+        title: "Manding Page Template",
+        date: 'concept',
+        link: 'https://landing-page-temp.vercel.app/',
+      },
     ],
     Branding: [
       {
