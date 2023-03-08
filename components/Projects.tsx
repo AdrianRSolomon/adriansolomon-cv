@@ -26,14 +26,14 @@ const Projects = () => {
       },
       {
         id: 3,
-        img: '/project-3.jpg',
+        img: '/project-4.jpg',
         title: "Next JS Sanity Ecommerce ",
         date: 'concept',
         link: 'https://sanity-stripev1.vercel.app/',
       },
       {
         id: 4,
-        img: '/project-4.jpg',
+        img: '/project-3.jpg',
         title: "Manding Page Template",
         date: 'concept',
         link: 'https://landing-page-temp.vercel.app/',
@@ -90,14 +90,14 @@ const Projects = () => {
       },
       {
         id: 3,
-        img: '/project-3.jpg',
+        img: '/project-4.jpg',
         title: "Next JS Sanity Ecommerce ",
         date: 'concept',
         link: 'https://sanity-stripev1.vercel.app/',
       },
       {
         id: 4,
-        img: '/project-4.jpg',
+        img: '/project-3.jpg',
         title: "Manding Page Template",
         date: 'concept',
         link: 'https://landing-page-temp.vercel.app/',
